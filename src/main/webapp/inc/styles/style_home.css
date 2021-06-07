@@ -1,0 +1,250 @@
+.nav-item{
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    background-color: white;
+    
+  }
+  
+  .menu-gauche{
+    padding-top: 20px;
+    background-color: rgb(49, 13, 81, 0.4);
+  }
+  
+  .nav-link{
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 1800px) {
+    .nav-item{
+      width: 380%;
+    }
+  }
+  @media screen and (max-width: 1395px) {
+    .nav-item{
+      width: 320%;
+    }
+  }
+  
+  @media screen and (max-width: 1210px) {
+    .nav-item{
+      width: 280%;
+    }
+  }
+  
+  @media screen and (max-width: 1065px) {
+    .nav-item{
+      width: 220%;
+    }
+  }
+  
+  @media screen and (max-width: 870px) {
+    .nav-item{
+      width: 180%;
+    }
+  }
+  @media screen and (max-width: 730px) {
+    .nav-item{
+      width: 150%;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .nav-item{
+      width: 120%;
+    }
+  }
+  
+  .corps_home{
+    padding-top: 40px;
+    margin-bottom: 50px;
+  }
+  
+  li.nav-item:hover{
+    background-color: rgb(214, 205, 185);
+  }
+  
+  li.on{
+    background-color: rgb(214, 205, 185);
+  }
+  
+  .carte{
+    margin:20px;
+    
+    padding: 0;
+  }
+  
+  h3{
+    margin-left: 0px;
+    border:solid 2px black;
+    margin-left: 0px;
+  }
+  
+  .corps_globale{
+    background-color: rgb(36, 71, 138, 0.3);
+    padding-left: 60px;
+  }
+  
+  .card{
+    background: url("images/1.jpg");
+    box-shadow: 5px 5px 5px 5px grey;
+  }
+
+  .menu-centre:hover{
+    background-color: rgb(228, 216, 166);
+  }
+  
+  a{
+    color: black;
+    font-weight: bold;
+  }
+  
+  .on{
+    background-color: rgb(228, 216, 166);
+  }
+  
+  .page-nbr{
+  	margin-bottom: 20px;
+  }
+  
+  .image-learn{
+  	margin-bottom: 60px;
+  	border-radius:35px;
+  	box-shadow: 5px 5px grey;
+  }
+  .image-recherche{
+  	margin-bottom: 20px;
+  	margin-left:0px;
+  	box-shadow: 5px 5px 5px 5px grey;
+  }
+  
+
+  /************************  Profile  ***********************************/
+  span.info{
+    font-weight: bold;
+  }
+
+.corps-profile{
+    margin-top: 40px;
+    padding-left: 20px;
+  }
+
+  .profile-card{
+    background-color: rgb(141, 146, 151, 0.7);
+    margin-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    border-radius: 35px;
+    box-shadow: 5px 5px 5px 5px grey;
+  }
+
+    /************************  Profile  ***********************************/
+    span.info{
+      font-weight: bold;
+    }
+  
+  .corps-profile{
+      margin-top: 40px;
+      padding-left: 20px;
+    }
+  
+    .profile-card{
+      background-color: rgb(141, 146, 151, 0.7);
+      margin-right: 20px;
+      margin-top: 80px;
+      margin-bottom: 100px;
+      padding-bottom: 50px;
+      border-radius: 35px;
+      box-shadow: 5px 5px 5px 5px grey;
+    }
+  
+    /******* New cards **********/
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: inherit;
+    }
+    html {
+      box-sizing: border-box;
+      
+    }
+    
+    @media (max-width: 60em) {
+      body {
+        padding: 3rem;
+     }
+    }
+    .grid {
+      display: grid;
+      width: 57rem;
+      grid-gap: 3rem;
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+      align-items: start;
+      margin-bottom: 50px;
+      margin-top: 100px;
+    }
+    @media (max-width: 60em) {
+      .grid {
+        grid-gap: 3rem;
+     }
+    }
+    .grid__item {
+      background-color: #fff;
+      border-radius: 0.4rem;
+      overflow: hidden;
+      box-shadow: 0 3rem 6rem rgba(0, 0, 0, .1);
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .grid__item:hover {
+      transform: translateY(-0.5%);
+      box-shadow: 0 4rem 8rem rgba(0, 0, 0, .2);
+    }
+    .card__img {
+      display: block;
+      width: 100%;
+      height: 18rem;
+      object-fit: cover;
+    }
+    .card__content {
+      padding: 3rem 3rem;
+    }
+    .card__header {
+      font-size: 25px;
+      font-weight: 500;
+      color: #0d0d0d;
+      margin-bottom: 1.5rem;
+      font-weight: bold;
+    }
+    .card__text {
+      font-size: 16px;
+      letter-spacing: 0.1rem;
+      line-height: 1.7;
+      color: #3d3d3d;
+      margin-bottom: 2.5rem;
+    }
+    .card__btn {
+      display: block;
+      width: 100%;
+      padding: 1.5rem;
+      font-size: 1rem;
+      text-align: center;
+      color: #3363ff;
+      background-color: #e6ecff;
+      border: none;
+      border-radius: 0.4rem;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+    .card__btn span {
+      margin-left: 1rem;
+      transition: 0.2s;
+    }
+    .card__btn:hover, .card__btn:active {
+      background-color: #dce4ff;
+    }
+    .card__btn:hover span, .card__btn:active span {
+      margin-left: 1.5rem;
+    }
+    

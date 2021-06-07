@@ -1,0 +1,75 @@
+.py-5 {
+    margin-top: 90px;
+}
+
+.border-md {
+    border-width: 2px;
+}
+
+body {
+    min-height : 100vh;
+}
+html, body {
+  height: 100%!important;
+  margin: 0;
+}
+.principal{
+	min-height: 80.75%!important;
+    
+ 
+}
+
+nav.haut{
+    background-color: rgb(130, 155, 142, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,	 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+.err{
+	color : red !important;
+}
+div.principal{
+    background-color: rgb(36, 71, 138, 0.3);
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+p.logo{
+    text-align: center;
+}
+
+span.icones-form{
+	border-top-left-radius: 25%;
+}
+
+.champs-form{
+	border-bottom-right-radius: 12px;
+}
+
+p.first-connect{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+span.first-connect{
+    font-weight: bold;
+    font-style: italic;
+}
+a.userName{
+	text-decoration:none;
+	color:black;
+	margin-right:10px;
+}

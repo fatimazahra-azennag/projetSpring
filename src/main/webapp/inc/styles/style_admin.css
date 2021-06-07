@@ -1,0 +1,164 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #ddd;
+    padding-top: 25px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 50px;
+  }
+  div.tab{
+    border-radius: 35px 35px 0 0;
+  }
+
+  div.align-items-center{
+      padding-top: 10px;
+      margin-top: 10px;
+  }
+
+  .choix{
+      height: 50px;
+  }
+
+  /*********** Upload file ****************/
+  #one
+{
+  margin-top:50px;
+ box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2);
+}
+.it .btn-orange
+{
+	background-color: rgb(56, 180, 25, 0.5);
+	border-color: #777!important;
+	color: #777;
+	text-align: left;
+  width:100%;
+}
+.it input.form-control
+{
+	height: 54px;
+	border:none;
+  margin-bottom:0px;
+	border-radius: 0px;
+	border-bottom: 1px solid #ddd;
+	box-shadow: none;
+}
+.it .form-control:focus
+{
+	border-color: #ff4d0d;
+	box-shadow: none;
+	outline: none;
+}
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.it .btn-new, .it .btn-next
+{
+	margin: 30px 0px;
+	border-radius: 0px;
+	background-color: #333;
+	color: #f5f5f5;
+	font-size: 16px;
+	width: 155px;
+}
+.it .btn-next
+{
+	background-color: #ff4d0d;
+	color: #fff;
+}
+.it .btn-check
+{
+  cursor:pointer;
+  line-height:54px;
+  color:red;
+}
+.it .uploadDoc
+{
+	margin-bottom: 20px;
+}
+.it .uploadDoc
+{
+	margin-bottom: 20px;
+}
+.it .btn-orange img {
+    width: 30px;
+}
+p
+{
+  font-size:16px;
+  text-align:center;
+  margin:30px 0px;
+}
+.it #uploader .docErr
+{
+	position: absolute;
+    right:auto;
+    left: 10px;
+    top: -56px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #fff;
+    color: red;
+    box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.2);
+    display: none;
+}
+.it #uploader .docErr:after
+{
+	content: '\f0d7';
+	display: inline-block;
+	font-family: FontAwesome;
+	font-size: 50px;
+	color: #fff;
+	position: absolute;
+	left: 30px;
+	bottom: -40px;
+	text-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+}
+
+.col-sm-8{
+    margin-top: 20px;
+}
+
+button.tablinks{
+  font-weight: bold;
+  font-size: 20px;
+}
+
